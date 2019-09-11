@@ -1,5 +1,11 @@
 # **DEVELOPER EXERCISE:**
 
+# **RUN Exercise**
+
+`npm install`
+
+`npm test`  and or `npm start`
+
 # **Sorting Characters in a paragraph**
 
 Our resident conspiracy expert, Dr. X, is looking for hidden messages in the collected publications of Hugh Hefner. Dr. X believes the message is hidden in the individual letters, so rather than get distracted by the words, he&#39;s asked us to write a program to take a block of text and return the letters it contains, sorted. Given the text:
