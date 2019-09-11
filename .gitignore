@@ -1,0 +1,9 @@
+node_modules
+*.log
+coverage
+.rpt2_cache
+.DS_Store
+/.idea/
+*.lock
+tmp
+package-lock.json

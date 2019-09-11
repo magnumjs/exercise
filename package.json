@@ -1,0 +1,23 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "dev exercise string manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnumjs/exercise.git"
+  },
+  "author": "Michael Glazer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnumjs/exercise/issues"
+  },
+  "homepage": "https://github.com/magnumjs/exercise#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
