@@ -13,6 +13,13 @@ describe('StringSorter', () => {
         expect(StringSorter(inputString)).toEqual(expect.not.stringMatching(expected))
     })
 
+    it("StringSorter function removes whitespace", () => {
+
+        const expected = " ";
+
+        expect(StringSorter(inputString)).toEqual(expect.not.stringContaining(expected))
+    })
+
     it("StringSorter function maps uppercase to lowercase", () => {
         expect(StringSorter(inputString)).toEqual(expectedOutput)
     })

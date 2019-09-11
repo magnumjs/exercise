@@ -5,5 +5,9 @@ module.exports = function StringSorter(inputString){
 
     outputString = inputString.replace(/[.,]/g,"");
 
+    //2. remove whitespace ( )
+
+    outputString = outputString.replace(/\s/g,"");
+
     return outputString;
 }
