@@ -1,27 +1,29 @@
-const StringSorter=require("./StringSorter");
+const StringSorter=require("./StringSorter")
 
-const inputString = "When not studying nuclear physics, Bambi likes to playbeach volleyball.";
+const inputString = "When not studying nuclear physics, Bambi likes to playbeach volleyball."
 
-const expectedOutput = "aaaaabbbbcccdeeeeeghhhiiiiklllllllmnnnnooopprsssstttuuvwyyyy";
+const expectedOutput = "aaaaabbbbcccdeeeeeghhhiiiiklllllllmnnnnooopprsssstttuuvwyyyy"
 
 describe('StringSorter', () => {
 
     it("StringSorter function removes punctuation", () => {
 
-        const expected = /\.|\,/;
+        const expected = /\.|\,/
 
         expect(StringSorter(inputString)).toEqual(expect.not.stringMatching(expected))
     })
 
     it("StringSorter function removes whitespace", () => {
 
-        const expected = " ";
+        const expected = " "
 
         expect(StringSorter(inputString)).toEqual(expect.not.stringContaining(expected))
     })
 
     it("StringSorter function maps uppercase to lowercase", () => {
-        expect(StringSorter(inputString)).toEqual(expectedOutput)
+        const expected = /[A-Z]/
+
+        expect(StringSorter(inputString)).toEqual(expect.not.stringMatching(expected))
     })
 
     it("StringSorter function returns sorted string", () => {

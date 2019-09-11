@@ -9,5 +9,10 @@ module.exports = function StringSorter(inputString){
 
     outputString = outputString.replace(/\s/g,"");
 
+    //3. change case
+
+    outputString = outputString.toLowerCase();
+
+
     return outputString;
 }
