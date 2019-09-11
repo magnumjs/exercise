@@ -16,8 +16,8 @@ module.exports = function StringSorter(inputString){
 
     //4. sort string alphabetically
 
-    var arr = outputString.split('');
-    var sorted = arr.sort();
+    const arr = outputString.split('');
+    const sorted = arr.sort();
     return sorted.join('');
 
 }
