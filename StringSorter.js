@@ -14,5 +14,10 @@ module.exports = function StringSorter(inputString){
     outputString = outputString.toLowerCase();
 
 
-    return outputString;
+    //4. sort string alphabetically
+
+    var arr = outputString.split('');
+    var sorted = arr.sort();
+    return sorted.join('');
+
 }
